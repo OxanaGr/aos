@@ -9,4 +9,5 @@ class aosPositiveTestCases(unittest.TestCase):
         methods.CrtNwAcnt()
         methods.log_out()
         methods.Login()
+        methods.log_out()
         methods.TearDown()
