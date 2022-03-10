@@ -110,8 +110,9 @@ def logger(action: object):
     log_file.close()
 
 
-SetUp()
-CrtNwAcnt()
-log_out()
-Login()
-TearDown()
+# SetUp()
+# CrtNwAcnt()
+# log_out()
+# Login()
+# log_out()
+# TearDown()
