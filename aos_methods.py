@@ -154,15 +154,8 @@ def Check_Social_Media_links():
     sleep(1)
     driver.switch_to.window(handles[0])
     # ______________________________________________________________________
-    driver.find_element(By.XPATH, "//img[@name='follow_linkedin']").click()
-    handles = driver.window_handles
-    newhandle = handles[1]
-    driver.switch_to.window(newhandle)
-    assert driver.title == "Sign In | LinkedIn"
+    assert driver.find_element(By.XPATH, "//img[@name='follow_linkedin']").is_enabled()
     print('<linkedin> link is clickable')
-    driver.close()
-    sleep(1)
-    driver.switch_to.window(handles[0])
 
 
 def Check_CONTACT_US():
