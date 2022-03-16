@@ -245,7 +245,7 @@ def checkout_shopping_cart():
     sleep(0.3)
     order_info = driver.find_element(By.XPATH, '//*[@id="orderPaymentSuccess"]').text
     print(f'ORDER PAYMENT information: {order_info}')
-    print('Test Checkout Shopping Cart passed Successfully!!! Yay!!!')
+    print('Checkout Shopping Cart Test passed Successfully!!! Yay!!!')
     sleep(0.3)
     print('__________________________________________________________________________________________')
 
